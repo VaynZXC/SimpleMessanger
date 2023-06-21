@@ -1,0 +1,96 @@
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  background: #af3f3f;
+  transition: 0.3s;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.btn_text {
+  margin-right: 10px;
+}
+
+.btn_icon {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+  background: url("http://www.w3.org/2000/svg")
+}
+
+.input-place {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+#form {
+  display: flex;
+  align-items: center;
+  background-color: rgb(73, 73, 73);
+  width: 450px;
+  height: 70px;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-color: black;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.messager-wrapper {
+  background-color: rgba(66, 65, 63, 0.781);
+  width: 450px;
+  height: 600px;
+  border-radius: 20px;
+}
+
+.message1, .message2 {
+  display: flex;
+  flex-wrap: nowrap;
+  width: min-content;
+  margin-top: 20px;
+  height: 30px;
+  align-items: center;
+  background-color: #af3f3f;
+}
+.message1 {
+  margin-right: 100px;
+  justify-content: start;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.message2 {
+  justify-content: end;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.open-btn {
+margin-bottom: 20px;
+}
