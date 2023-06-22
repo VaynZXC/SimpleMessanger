@@ -49,7 +49,7 @@
   display: flex;
   align-items: center;
   background-color: rgb(73, 73, 73);
-  width: 450px;
+  width: 550px;
   height: 70px;
   justify-content: center;
   border-top-left-radius: 20px;
@@ -65,32 +65,83 @@
 
 .messager-wrapper {
   background-color: rgba(66, 65, 63, 0.781);
-  width: 450px;
+  width: 550px;
   height: 600px;
   border-radius: 20px;
 }
 
-.message1, .message2 {
+.message1, .message2, .message3, .message4 {
   display: flex;
   flex-wrap: nowrap;
   width: min-content;
   margin-top: 20px;
   height: 30px;
   align-items: center;
-  background-color: #af3f3f;
-}
-.message1 {
-  margin-right: 100px;
-  justify-content: start;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-.message2 {
-  justify-content: end;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  background-color: #a3a3a3;
 }
 
+.message1 {
+  justify-content: end;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.message2 {
+  justify-content: start;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.message3, .message4 {
+  justify-content: center;
+  border-radius: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.message-place {
+ display: flex;
+ height: 500px;
+ flex-direction: column;
+}
+
+.zxc1, .zxc2, .connected, .dicconected {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  white-space: nowrap;
+}
+
+.zxc1 {
+  justify-content: end;
+}
+
+.connected, .dicconected {
+  justify-content: center;
+  height: 30px;
+  margin-top: 4px;
+}
+
+.gps {
+  margin: 0;
+  padding: 0;
+}
+.geo {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
 .open-btn {
-margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.message1 a {
+  text-decoration: none;
+  color: rgb(255, 0, 34);
+  text-align: center;
+  text-shadow: 50px;
+  white-space: nowrap;
 }
